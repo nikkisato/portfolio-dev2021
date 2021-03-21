@@ -1,0 +1,57 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(91, 87, 115);
+  color: white;
+}
+.about__container {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  Tech Stack Pictures */
+.about__media {
+  height: 300px;
+  text-align: center;
+}
+
+.about__root {
+  width: 300px;
+  border: 35px solid white;
+  height: fit-content;
+  margin: 20px;
+}
+
+/*  Tech Stack Bio */
+.about__bio {
+  margin-top: 50px;
+  max-width: 700px;
+}
+/*  Tech Stack Chip */
+.about__techStack {
+  padding: 30px;
+}
+.about__techStack--chip {
+  padding: 30px;
+  max-width: 900px;
+}
+.about__chip {
+  font-size: 20px;
+  margin: 10px;
+}
+.MuiChip-label {
+  font-size: 20px;
+}

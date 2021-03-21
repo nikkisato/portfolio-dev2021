@@ -1,0 +1,16 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f3;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+}
+
+.projects__root {
+  width: 450px;
+  height: fit-content;
+  margin: 20px;
+}
+.projects__media {
+  height: 300px;
+  text-align: center;
+}
