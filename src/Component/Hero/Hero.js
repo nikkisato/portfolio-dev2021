@@ -69,10 +69,11 @@ function Hero() {
       />
       <div className='hero__title'>
         <h1 className='hero__intro'>Hello I'm Nikki Sato</h1>
-        <h1
-          style={{ paddingTop: '5rem', margin: 'auto 0', fontWeight: 'normal' }}
-        >
+        <h1 className='hero__iam'>
           I am a {'     '}
+          <div className='hero__break'>
+            <br />
+          </div>
           <span style={{ color: 'red', fontWeight: 'bold' }}>
             <Typewriter
               loop
