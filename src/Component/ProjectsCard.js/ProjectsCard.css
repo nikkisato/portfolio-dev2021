@@ -6,7 +6,7 @@
 }
 
 .projects__root {
-  width: 450px;
+  max-width: 450px;
   height: fit-content;
   margin: 20px;
 }
