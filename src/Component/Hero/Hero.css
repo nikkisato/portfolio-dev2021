@@ -34,7 +34,6 @@
 }
 
 .hero__socialButton {
-  margin: 20px;
   transition: 0.2s;
   margin: 30px !important;
   padding: 10px !important;
@@ -46,6 +45,10 @@
   cursor: pointer;
 }
 
+.MuiButton-root {
+  min-width: 120px !important;
+}
+
 @media only screen and (max-width: 600px) {
   .hero__bg {
     opacity: 0;
@@ -53,6 +56,11 @@
 
   .hero__socialIcons {
     flex-wrap: wrap !important;
+    margin-top: 0;
+  }
+
+  .hero__socialButton {
+    margin: 15px !important;
   }
 
   .hero__socialButton:hover {

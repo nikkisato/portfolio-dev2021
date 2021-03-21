@@ -1,6 +1,6 @@
 .contact {
   background-color: black;
-  height: 50vh;
+  height: auto;
   color: white;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,6 @@
 }
 
 .contact__socialButton {
-  margin: 20px;
   transition: 0.2s;
   margin: 30px !important;
   padding: 10px !important;
@@ -31,15 +30,20 @@
   transform: scale(1.2);
   cursor: pointer;
 }
+
 @media only screen and (max-width: 600px) {
   .contact__title {
     text-align: center;
     margin: 50px;
   }
   .contact__socialIcons {
-    width: 450px;
+    width: 350px;
+    margin-top: 0;
+    flex-wrap: wrap !important;
   }
-
+  .contact__socialButton {
+    margin: 15px !important;
+  }
   .contact__socialButton:hover {
     transform: none;
   }

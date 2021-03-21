@@ -7,9 +7,9 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Chip from '@material-ui/core/Chip';
-//import developer from '../../assets/developer.jpg';
-//import photographer from '../../assets/photographer.jpg';
-//import smile from '../../assets/photoJournal.jpeg';
+import developer from '../../assets/developer.jpg';
+import photographer from '../../assets/photographer.jpg';
+import smile from '../../assets/smile.jpeg';
 
 function About() {
   return (
@@ -21,7 +21,7 @@ function About() {
               <CardActionArea>
                 <CardMedia
                   className='about__media'
-                  image='https://www.nikkisato.com/74be52d07e711a86637853ab5d7b9954.jpg'
+                  image={developer}
                   title='Developer'
                 />
                 <CardContent>
@@ -44,7 +44,7 @@ function About() {
               <CardActionArea>
                 <CardMedia
                   className='about__media'
-                  image='https://www.nikkisato.com/7cb7236b3bc554f6904a5ce386f5c1b9.jpg'
+                  image={smile}
                   title='Always Smiling'
                 />
                 <CardContent>
@@ -68,7 +68,7 @@ function About() {
               <CardActionArea>
                 <CardMedia
                   className='about__media'
-                  image='https://www.nikkisato.com/be2dd3681021b425d4ffb0974cd1c206.jpg'
+                  image={photographer}
                   title='Photographer'
                 />
                 <CardContent>
