@@ -74,7 +74,7 @@ function Hero() {
           <div className='hero__break'>
             <br />
           </div>
-          <span style={{ color: 'red', fontWeight: 'bold' }}>
+          <span style={{ color: 'white', fontWeight: 'bold' }}>
             <Typewriter
               loop
               cursor

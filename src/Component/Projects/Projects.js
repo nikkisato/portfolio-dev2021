@@ -8,6 +8,10 @@ import youtubeClone from '../../assets/youtubeClone.png';
 import amazonClone from '../../assets/amazonClone.png';
 import iMessageClone from '../../assets/iMessageClone.png';
 import netflixClone from '../../assets/netflixClone.png';
+import facebookClone from '../../assets/facebookClone.png';
+import portfolio from '../../assets/portfolio.png';
+import tinderClone from '../../assets/tinderClone.png';
+import covidTracker from '../../assets/covidTracker.png';
 
 import ProjectsCard from '../ProjectsCard.js/ProjectsCard';
 const projectArray = [
@@ -43,7 +47,7 @@ const projectArray = [
     imageAlt: 'Airbnb Clone',
     imageUrl: airbnbClone,
     github: 'https://github.com/nikkisato/airbnb-clone',
-    liveSite: 'https://airbnb-clone-6c34f.web.app/',
+    liveSite: 'https://airbnb-clone-project.netlify.app/',
     description:
       'An Airbnb Clone utilizing React, Context API, BEM styling, Material UI, Firebase, and Deployed with Firebase ',
   },
@@ -74,6 +78,39 @@ const projectArray = [
     github: 'https://github.com/nikkisato/Photography-Journal',
     liveSite: 'https://photojournal.netlify.app/',
     description: 'Using React, Redux, Firebase and Deployed by  Netlify',
+  },
+  {
+    projectTitle: 'Facebook Clone',
+    imageAlt: 'Facebook Clone',
+    imageUrl: facebookClone,
+    github: 'https://github.com/nikkisato/facebook-clone',
+    liveSite: 'https://facebook-clone-4cc0e.web.app/',
+    description:
+      'A Facebook Clone using React, Context API, firebase auth, firebase real-time database, and deployed on Firebase hosting.',
+  },
+  {
+    projectTitle: 'Tinder Clone',
+    imageAlt: 'Tinder Clone',
+    imageUrl: tinderClone,
+    github: 'https://github.com/nikkisato/tinder-clone',
+    liveSite: 'https://tinder-clone-7c3e2.web.app/',
+    description: 'Using React and Firebase and Deployed by  Netlify',
+  },
+  {
+    projectTitle: 'Portfolio',
+    imageAlt: 'Portfolio',
+    imageUrl: portfolio,
+    github: 'https://github.com/nikkisato/portfolio-dev2021',
+    liveSite: 'nikkisato.com',
+    description: 'Using React, Material UI, Deployed by  Netlify',
+  },
+  {
+    projectTitle: 'Covid-19 Tracker',
+    imageAlt: 'Covid-19 Tracker',
+    imageUrl: covidTracker,
+    github: 'https://github.com/nikkisato/Covid-19-Tracker',
+    liveSite: 'https://covid-19-tracker-dev.netlify.app/',
+    description: 'Using React and Context Api and Deployed by  Netlify',
   },
 ];
 function Projects() {
