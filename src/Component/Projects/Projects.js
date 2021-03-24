@@ -12,6 +12,7 @@ import facebookClone from '../../assets/facebookClone.png';
 import portfolio from '../../assets/portfolio.png';
 import tinderClone from '../../assets/tinderClone.png';
 import covidTracker from '../../assets/covidTracker.png';
+import instagramClone from '../../assets/instagramClone.png';
 
 import ProjectsCard from '../ProjectsCard.js/ProjectsCard';
 const projectArray = [
@@ -111,6 +112,15 @@ const projectArray = [
     github: 'https://github.com/nikkisato/Covid-19-Tracker',
     liveSite: 'https://covid-19-tracker-dev.netlify.app/',
     description: 'Using React and Context Api and Deployed by  Netlify',
+  },
+  {
+    projectTitle: 'Instagram Clone',
+    imageAlt: 'Instagram Clone',
+    imageUrl: instagramClone,
+    github: 'https://github.com/nikkisato/instagram-clone',
+    liveSite: 'https://instagram-clone-76171.web.app/',
+    description:
+      'Using React, Material UI, Firebase storage and authentication and Deployed by Firebase ',
   },
 ];
 function Projects() {
