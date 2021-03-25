@@ -13,6 +13,7 @@ import portfolio from '../../assets/portfolio.png';
 import tinderClone from '../../assets/tinderClone.png';
 import covidTracker from '../../assets/covidTracker.png';
 import instagramClone from '../../assets/instagramClone.png';
+import huluClone from '../../assets/huluClone.png';
 
 import ProjectsCard from '../ProjectsCard.js/ProjectsCard';
 const projectArray = [
@@ -122,7 +123,18 @@ const projectArray = [
     description:
       'Using React, Material UI, Firebase storage and authentication and Deployed by Firebase ',
   },
+  {
+    projectTitle: 'Hulu Clone',
+    imageAlt: 'Hulu Clone',
+    imageUrl: huluClone,
+    github: 'https://github.com/nikkisato/hulu-clone',
+    liveSite: 'https://hulu-clone-project.netlify.app/',
+    description:
+      'Using React, Material UI, and TMDB (The Movies Database) Deployed by Netlify ',
+  },
 ];
+
+//https://hulu-clone-project.netlify.app/
 function Projects() {
   return (
     <div className='projects' id='projects'>
