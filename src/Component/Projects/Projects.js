@@ -14,6 +14,10 @@ import tinderClone from '../../assets/tinderClone.png';
 import covidTracker from '../../assets/covidTracker.png';
 import instagramClone from '../../assets/instagramClone.png';
 import huluClone from '../../assets/huluClone.png';
+import slackClone from '../../assets/slackClone.png';
+import linkedinClone from '../../assets/linkedinClone.png';
+import robinhoodClone from '../../assets/robinhoodClone.png';
+import googleClone from '../../assets/googleClone.png';
 
 import ProjectsCard from '../ProjectsCard.js/ProjectsCard';
 const projectArray = [
@@ -132,9 +136,48 @@ const projectArray = [
     description:
       'Using React, Material UI, and TMDB (The Movies Database) Deployed by Netlify ',
   },
+
+  {
+    projectTitle: 'Google Clone',
+    imageAlt: 'Google Clone',
+    imageUrl: googleClone,
+    github: 'https://github.com/nikkisato/google-clone',
+    liveSite: 'https://wizardly-google-clone.netlify.app/',
+    description:
+      'Using React, Redux, Google Search Functions, Firebase, Deployed by Netlify ',
+  },
+
+  {
+    projectTitle: 'Robinhood Clone',
+    imageAlt: 'Robinhood Clone',
+    imageUrl: robinhoodClone,
+    github: 'https://github.com/nikkisato/robinhood-clone',
+    liveSite: 'robin-c016e.web.app/',
+    description:
+      'Using React, Material UI, and FinnHub (The Stock API) Deployed by Netlify ',
+  },
+
+  {
+    projectTitle: 'Slack Clone',
+    imageAlt: 'Slack Clone',
+    imageUrl: slackClone,
+    github: 'https://github.com/nikkisato/slack-clone',
+    liveSite: 'https://slack-clone-f7d82.web.app/',
+    description:
+      'Using React,Redux, Material UI, Styled-Components, Deployed by Firebase ',
+  },
+
+  {
+    projectTitle: 'Linkedin Clone',
+    imageAlt: 'Linkedin Clone',
+    imageUrl: linkedinClone,
+    github: 'https://github.com/nikkisato/linkedin-clone',
+    liveSite: 'https://linkedin-clone-689de.web.app/',
+    description:
+      'Using React,Redux, Material UI, BEM styling, Firebase Auth, and Deployed by Firebase ',
+  },
 ];
 
-//https://hulu-clone-project.netlify.app/
 function Projects() {
   return (
     <div className='projects' id='projects'>
