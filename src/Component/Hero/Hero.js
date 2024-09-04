@@ -1,8 +1,6 @@
-import React from 'react';
-import './Hero.css';
-import Particles from 'react-particles-js';
-import Typewriter from 'react-simple-typewriter';
-import 'react-simple-typewriter/dist/index.css';
+'use client';
+
+import { Typewriter } from 'react-simple-typewriter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -12,140 +10,86 @@ import Button from '@material-ui/core/Button';
 
 function Hero() {
   return (
-    <div className='hero' id='hero'>
-      <Particles
-        className='hero__bg '
-        params={{
-          particles: {
-            number: {
-              value: 160,
-              density: {
-                enable: false,
-              },
-            },
-            size: {
-              value: 3,
-              random: true,
-              anim: {
-                speed: 4,
-                size_min: 0.3,
-              },
-            },
-            line_linked: {
-              enable: false,
-            },
-            move: {
-              random: true,
-              speed: 1,
-              direction: 'top',
-              out_mode: 'out',
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: 'bubble',
-              },
-              onclick: {
-                enable: true,
-                mode: 'repulse',
-              },
-            },
-            modes: {
-              bubble: {
-                distance: 250,
-                duration: 2,
-                size: 0,
-                opacity: 0,
-              },
-              repulse: {
-                distance: 400,
-                duration: 4,
-              },
-            },
-          },
-        }}
-      />
-      <div className='hero__title'>
-        <h1 className='hero__intro'>Hello I'm Nikki Sato</h1>
-        <h1 className='hero__iam'>
+    <div
+      className="relative flex min-h-screen flex-col justify-center items-center"
+      id="hero"
+    >
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-4xl font-bold text-white">Hello I'm Nikki Sato</h1>
+        <br />
+        <div className="text-xl font-bold text-white">
           I am a {'     '}
-          <div className='hero__break'>
-            <br />
-          </div>
-          <span style={{ color: 'white', fontWeight: 'bold' }}>
-            <Typewriter
-              loop
-              cursor
-              cursorStyle='|'
-              typeSpeed={80}
-              deleteSpeed={70}
-              delaySpeed={1500}
-              words={['Developer', 'UI Designer', 'Photographer']}
-            />
-          </span>
-        </h1>
+          <Typewriter
+            loop
+            cursor
+            cursorStyle="|"
+            typeSpeed={80}
+            deleteSpeed={70}
+            delaySpeed={1500}
+            words={['Developer', 'Accessibility Advocate', 'Photographer']}
+          />
+        </div>
+        <br />
 
-        <div className='hero__socialIcons'>
+        <div className="flex flex-col gap-4  lg:flex-row justify-center">
           <Button
-            className='hero__socialButton'
-            rel='noopener noreferrer'
-            target='_blank'
-            size='medium'
-            color='primary'
-            href='https://github.com/nikkisato'
+            className="hero__socialButton"
+            rel="noopener noreferrer"
+            target="_blank"
+            size="medium"
+            color="primary"
+            href="https://github.com/nikkisato"
             startIcon={<GitHubIcon />}
-            variant='contained'
+            variant="contained"
           >
             Github
           </Button>
 
           <Button
-            className='hero__socialButton'
-            variant='contained'
-            rel='noopener noreferrer'
-            target='_blank'
-            size='medium'
-            color='primary'
-            href='https://drive.google.com/file/d/1fkG77E_HmWHqex4mtZE-go6oplsCt9_5/view?usp=sharing'
+            className="hero__socialButton"
+            variant="contained"
+            rel="noopener noreferrer"
+            target="_blank"
+            size="medium"
+            color="primary"
+            href="https://drive.google.com/file/d/1fkG77E_HmWHqex4mtZE-go6oplsCt9_5/view?usp=sharing"
             startIcon={<InsertDriveFileIcon />}
           >
             Resume
           </Button>
           <Button
-            className='hero__socialButton'
-            variant='contained'
-            rel='noopener noreferrer'
-            target='_blank'
-            size='medium'
-            color='primary'
-            href='https://www.linkedin.com/in/nikkisato/'
+            className="hero__socialButton"
+            variant="contained"
+            rel="noopener noreferrer"
+            target="_blank"
+            size="medium"
+            color="primary"
+            href="https://www.linkedin.com/in/nikkisato/"
             startIcon={<LinkedInIcon />}
           >
             Linkedin
           </Button>
 
           <Button
-            className='hero__socialButton'
-            variant='contained'
-            rel='noopener noreferrer'
-            target='_blank'
-            size='medium'
-            color='secondary'
-            href='mailto:nikki.satopdx@gmail.com'
+            className="hero__socialButton"
+            variant="contained"
+            rel="noopener noreferrer"
+            target="_blank"
+            size="medium"
+            color="secondary"
+            href="mailto:nikki.satopdx@gmail.com"
             startIcon={<EmailIcon />}
           >
             Email
           </Button>
           <Button
-            className='hero__socialButton'
-            variant='contained'
-            rel='noopener noreferrer'
-            target='_blank'
-            size='medium'
-            color='secondary'
-            href='https://twitter.com/nikkisatodev'
+            className="hero__socialButton"
+            variant="contained"
+            rel="noopener noreferrer"
+            target="_blank"
+            size="medium"
+            color="secondary"
+            href="https://twitter.com/nikkisatodev"
             startIcon={<TwitterIcon />}
           >
             Twitter
