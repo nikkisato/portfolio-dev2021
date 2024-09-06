@@ -37,7 +37,10 @@ function Projects() {
           className="px-24"
         >
           {projectArray.map((project) => (
-            <ProjectsCard project={project} />
+            <ProjectsCard
+              key={project.projectTitle}
+              project={project}
+            />
           ))}
         </Grid>
       </div>

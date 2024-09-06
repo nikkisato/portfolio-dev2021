@@ -1,5 +1,7 @@
 'use client';
 
+import './About.css';
+
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -31,7 +33,7 @@ function About() {
               <CardActionArea>
                 <CardMedia
                   className="about__media"
-                  image={developer}
+                  image={developer.src}
                   title="Developer"
                 />
                 <CardContent>
@@ -61,7 +63,7 @@ function About() {
               <CardActionArea>
                 <CardMedia
                   className="about__media"
-                  image={smile}
+                  image={smile.src}
                   title="Always Smiling"
                 />
                 <CardContent>
@@ -92,7 +94,7 @@ function About() {
               <CardActionArea>
                 <CardMedia
                   className="about__media"
-                  image={photographer}
+                  image={photographer.src}
                   title="Photographer"
                 />
                 <CardContent>
@@ -123,7 +125,7 @@ function About() {
               <CardActionArea>
                 <CardMedia
                   className="about__media"
-                  image={photographer}
+                  image={photographer.src}
                   title="Photographer"
                 />
                 <CardContent>
